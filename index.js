@@ -1,4 +1,4 @@
-import { logE } from './utils.js'
+import { error as logE } from './utils.js'
 
 export default function init() {
     let onMessageCallback = null;
