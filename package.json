@@ -1,0 +1,10 @@
+{
+  "name": "node-native-messaging-host",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Damien Rajon",
+  "license": "Unlicense"
+}
