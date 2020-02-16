@@ -3,7 +3,7 @@ Simple Node Native Messaging Host
 
 This module aims to be a simple native messaging host for nodejs.
 
-Usage
+Usage:
 
 ```javascript
 import initNativeMessagingHost from 'node-nm-host';
