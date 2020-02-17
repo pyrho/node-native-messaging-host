@@ -83,7 +83,7 @@ export default function init() {
             header.writeUInt32LE(msg.length, 0);
 
             process.stdout.write(header);
-            process.stdout.write(JSON.stringify(msg));
+            process.stdout.write(msg);
         },
 
         addOnMessageListener: cb => onMessageCallback = cb,
