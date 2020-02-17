@@ -1,6 +1,8 @@
 Simple Node Native Messaging Host
 =================================
 
+/!\ Work in progress, not ready for production usage /!\
+
 This module aims to be a simple native messaging host for nodejs.
 
 Usage:
