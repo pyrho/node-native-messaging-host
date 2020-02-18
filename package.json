@@ -1,6 +1,6 @@
 {
   "name": "node-native-messaging-host",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "type": "module",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   "author": "Damien 'pyrho' Rajon",
   "license": "Unlicense",
   "repository": {
-      "type" : "git",
-      "url": "https://github.com/pyrho/node-native-messaging-host.git"
+    "type": "git",
+    "url": "https://github.com/pyrho/node-native-messaging-host.git"
   }
 }
