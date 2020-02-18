@@ -1,14 +1,14 @@
 {
   "name": "node-native-messaging-host",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "",
   "main": "index.js",
   "keywords": [
-      "native-messaging-host",
-      "webextension",
-      "firefox",
-      "chrome"
+    "native-messaging-host",
+    "webextension",
+    "firefox",
+    "chrome"
   ],
   "author": "Damien 'pyrho' Rajon",
   "license": "Unlicense",
