@@ -4,13 +4,13 @@ Simple Node Native Messaging Host
 A [native messaging](https://wiki.developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)
 host for Chrome and Firefox with a simple API and no dependencies.
 
-#Install
+# Install
 
 ```
 npm i node-native-messaging-host
 ```
 
-#Usage
+# Usage
 
 ```javascript
 import initNativeMessagingHost from 'node-nm-host';
