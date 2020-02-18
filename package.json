@@ -5,6 +5,10 @@
   "description": "",
   "main": "index.js",
   "keywords": [],
-  "author": "Damien Rajon",
-  "license": "Unlicense"
+  "author": "Damien 'pyrho' Rajon",
+  "license": "Unlicense",
+  "repository": {
+      "type" : "git",
+      "url": "https://github.com/pyrho/node-native-messaging-host.git"
+  }
 }

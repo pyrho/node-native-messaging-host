@@ -1,5 +1,10 @@
 import { error as logE } from './utils.js'
 
+/**
+ * Initialize the native messaging host.
+ *
+ * @returns {Object} An object with two keys `send` and `addOnMessageListener`
+ */
 export default function init() {
     let onMessageCallback = null;
 

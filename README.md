@@ -1,11 +1,16 @@
 Simple Node Native Messaging Host
 =================================
 
-/!\ Work in progress, not ready for production usage /!\
+A [native messaging](https://wiki.developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)
+host for Chrome and Firefox with a simple API and no dependencies.
 
-This module aims to be a simple native messaging host for nodejs.
+#Install
 
-Usage:
+```
+npm i node-native-messaging-host
+```
+
+#Usage
 
 ```javascript
 import initNativeMessagingHost from 'node-nm-host';
@@ -22,5 +27,11 @@ nm.addOnMessageListener(message => {
 
 // Send a message to the extension
 nm.send({ answer: 42 });
-
 ```
+
+# Used by
+
+- [alfred-firefoxtabswitch](https://github.com/pyrho/alfred-firefoxtabswitch)
+
+# Todo
+- [ ] tests
