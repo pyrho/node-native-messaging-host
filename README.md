@@ -13,7 +13,7 @@ npm i node-native-messaging-host
 # Usage
 
 ```javascript
-import initNativeMessagingHost from 'node-nm-host';
+import initNativeMessagingHost from 'node-native-messaging-host';
 
 // Initialize
 const nm = initNativeMessagingHost();
