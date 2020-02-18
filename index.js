@@ -1,11 +1,11 @@
-import { error as logE } from './utils.js'
+const { logError } = require('./utils');
 
 /**
  * Initialize the native messaging host.
  *
  * @returns {Object} An object with two keys `send` and `addOnMessageListener`
  */
-export default function init() {
+module.exports = function init() {
     let onMessageCallback = null;
 
     function startNativeMessagingHost() {
@@ -52,7 +52,7 @@ export default function init() {
                 try {
                     json = JSON.parse(contentWithoutSize);
                 } catch (e) {
-                    logE(`Failed to parse JSON object from extension: ${e}`);
+                    logError(`Failed to parse JSON object from extension: ${e}`);
                     return;
                 }
 

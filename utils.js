@@ -4,7 +4,7 @@ export function log(...args) {
     }
 }
 
-export function error(...args) {
+export function logError(...args) {
     if (process.env.DEBUG_NM_HOST) {
         console.error(...args);
     }
